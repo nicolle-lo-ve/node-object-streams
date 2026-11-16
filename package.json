@@ -1,0 +1,28 @@
+{
+  "name": "node-object-streams",
+  "version": "1.0.0",
+  "description": "Ejemplos de streams de objetos (objectMode) en Node.js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "basic": "node index.js",
+    "custom": "node examples/02-custom-readable.js",
+    "pipeline": "node examples/03-pipeline.js",
+    "csv": "node examples/04-csv.js",
+    "all": "npm run basic && npm run custom && npm run pipeline && npm run csv"
+  },
+  "keywords": [
+    "nodejs",
+    "streams",
+    "objectMode",
+    "pipeline",
+    "ejemplo",
+    "educativo"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
